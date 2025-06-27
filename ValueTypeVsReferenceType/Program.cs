@@ -16,4 +16,8 @@
             Console.WriteLine($"Reference Type: referenceType1.Name = {referenceType1.Name}, referenceType2.Name = {referenceType2.Name}");
         }
     }
+    class Person
+    {
+        public string Name { get; set; }
+    }
 }
