@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            TextBox pesoValue;
+            pesoValue = new TextBox();
             label1 = new Label();
             peso = new Label();
             altura = new Label();
@@ -36,7 +36,6 @@
             resultValue = new TextBox();
             imcValue = new Label();
             calculo = new Button();
-            pesoValue = new TextBox();
             SuspendLayout();
             // 
             // pesoValue
