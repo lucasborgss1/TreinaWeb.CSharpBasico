@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMC", "IMC\IMC.csproj", "{B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retangulo", "Retangulo\Retangulo.csproj", "{2D6A6949-CDBB-4016-A779-32FE17112171}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrdenandoNumeros", "OrdenandoNumeros\OrdenandoNumeros.csproj", "{47BA71C6-80F0-417E-995E-491A616209B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{2D6A6949-CDBB-4016-A779-32FE17112171}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D6A6949-CDBB-4016-A779-32FE17112171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D6A6949-CDBB-4016-A779-32FE17112171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47BA71C6-80F0-417E-995E-491A616209B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47BA71C6-80F0-417E-995E-491A616209B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47BA71C6-80F0-417E-995E-491A616209B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47BA71C6-80F0-417E-995E-491A616209B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,6 +72,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B9D7BFE1-74D7-42C4-BEFA-EB29B7683388} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{2D6A6949-CDBB-4016-A779-32FE17112171} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{47BA71C6-80F0-417E-995E-491A616209B9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {983A4CE3-BA88-4B3F-9497-3C18090BB1BB}
