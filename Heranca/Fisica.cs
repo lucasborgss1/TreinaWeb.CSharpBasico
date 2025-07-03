@@ -18,7 +18,7 @@ namespace Heranca
 
         public void Incluir()
         {
-            Status = cpf + " incluído.";
+            status = cpf + " incluído.";
         }
     }
 }

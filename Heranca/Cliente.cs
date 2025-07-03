@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace Heranca
 {
-    class Cliente
+    public class Cliente
     {
         private int codigo;
         private string nome;
-        private string status;
+        protected string status;
+
+        public Cliente()
+        {
+            codigo = 0;
+            nome = string.Empty;
+            status = string.Empty;
+        }
 
         public int Codigo
         {
