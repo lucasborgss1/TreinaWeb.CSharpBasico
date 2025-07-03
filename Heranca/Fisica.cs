@@ -8,14 +8,14 @@ namespace Heranca
 {
     internal class Fisica : Cliente
     {
-        private int cpf;
+        private string cpf;
 
         public Fisica()
         {
             cpf = 0;
         }
 
-        public int Cpf
+        public string Cpf
         {
             get { return cpf; }
             set { cpf = value; }

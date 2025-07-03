@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Heranca
 {
-    public class Cliente
+    public abstract class Cliente
     {
         private int codigo;
         private string nome;
