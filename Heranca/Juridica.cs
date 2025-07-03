@@ -12,7 +12,7 @@ namespace Heranca
 
         public Juridica()
         {
-            cnpj = 0;
+            cnpj = "";
         }
 
         public string Cnpj

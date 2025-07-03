@@ -12,7 +12,7 @@ namespace Heranca
 
         public Fisica()
         {
-            cpf = 0;
+            cpf = "";
         }
 
         public string Cpf
