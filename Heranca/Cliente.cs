@@ -10,12 +10,14 @@ namespace Heranca
     {
         private int codigo;
         private string nome;
+        private string endereco;
         protected string status;
 
         public Cliente()
         {
             codigo = 0;
             nome = string.Empty;
+            endereco = string.Empty;
             status = string.Empty;
         }
 
@@ -31,6 +33,12 @@ namespace Heranca
             set { nome = value; }
         }
 
+        public string Endereco
+        {
+            get { return endereco; }
+            set { endereco = value; }
+        }
+
         public string Status
         {
             get { return status; }
@@ -40,6 +48,11 @@ namespace Heranca
         public void Excluir()
         {
             status = codigo + " excluído.";
+        }
+
+        public virtual void EnderecoCliente()
+        {
+            Console.WriteLine("Endereço do cliente: " + endereco);
         }
     }
 }

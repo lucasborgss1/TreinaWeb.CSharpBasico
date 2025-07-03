@@ -10,6 +10,11 @@ namespace Heranca
     {
         private int cpf;
 
+        public Fisica()
+        {
+            cpf = 0;
+        }
+
         public int Cpf
         {
             get { return cpf; }
@@ -19,6 +24,16 @@ namespace Heranca
         public void Incluir()
         {
             status = cpf + " incluído.";
+        }
+
+        public new void Excluir()
+        {
+            status = cpf + " excluído.";
+        }
+
+        public override void EnderecoCliente()
+        {
+            Console.WriteLine("Endereço do cliente físico: " + Endereco);
         }
     }
 }
