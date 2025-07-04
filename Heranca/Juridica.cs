@@ -26,7 +26,7 @@ namespace Heranca
             status = cnpj + " incluído";
         }
 
-        public new void Excluir()
+        public override void Excluir()
         {
             status = cnpj + " excluido.";
         }

@@ -45,14 +45,8 @@ namespace Heranca
             set { status = value; }
         }
 
-        public void Excluir()
-        {
-            status = codigo + " excluído.";
-        }
+        public abstract void Excluir();
 
-        public virtual void EnderecoCliente()
-        {
-            Console.WriteLine("Endereço do cliente: " + endereco);
-        }
+        public abstract void EnderecoCliente();
     }
 }
